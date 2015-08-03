@@ -13,6 +13,8 @@ module Locomotive
         field :required,  default: false
         field :unique,    default: false
         field :localized, default: false
+        field :searchable, default: false
+        field :free_html_text, default: false
 
         # text
         field :text_formatting
